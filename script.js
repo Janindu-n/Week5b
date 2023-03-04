@@ -7,5 +7,9 @@ insideofCup.addEventListener("click", () => {
   let textbox = document.getElementById("textbox");
   textbox.innerText = "It's the world cup!!!";
   textbox.style.fontSize = "3em";
-  textbox.style.textAlign = "center";
+  textbox.style.position = "fixed";
+  textbox.style.top = "0";
+  textbox.style.left = "50%";
+  textbox.style.transform = "translateX(-50%)";
 });
+
